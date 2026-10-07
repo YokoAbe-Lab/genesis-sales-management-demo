@@ -1,0 +1,349 @@
+{
+  "scope": "Offline release checks with fictional fixtures; no real AI request or desktop registration test success claimed.",
+  "passed": 57,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "GET /",
+      "expected": 200,
+      "actual": 200,
+      "passed": true
+    },
+    {
+      "name": "GET /sales",
+      "expected": 200,
+      "actual": 200,
+      "passed": true
+    },
+    {
+      "name": "GET /sales.js",
+      "expected": 200,
+      "actual": 200,
+      "passed": true
+    },
+    {
+      "name": "GET /sales.css",
+      "expected": 200,
+      "actual": 200,
+      "passed": true
+    },
+    {
+      "name": "GET /agent.js",
+      "expected": 200,
+      "actual": 200,
+      "passed": true
+    },
+    {
+      "name": "GET /agent.css",
+      "expected": 200,
+      "actual": 200,
+      "passed": true
+    },
+    {
+      "name": "GET /excel",
+      "expected": 200,
+      "actual": 200,
+      "passed": true
+    },
+    {
+      "name": "GET /excel.js",
+      "expected": 200,
+      "actual": 200,
+      "passed": true
+    },
+    {
+      "name": "GET /integration",
+      "expected": 200,
+      "actual": 200,
+      "passed": true
+    },
+    {
+      "name": "GET /api/state",
+      "expected": 200,
+      "actual": 200,
+      "passed": true
+    },
+    {
+      "name": "GET /api/agent",
+      "expected": 200,
+      "actual": 200,
+      "passed": true
+    },
+    {
+      "name": "GET /api/analysis",
+      "expected": 200,
+      "actual": 200,
+      "passed": true
+    },
+    {
+      "name": "work Access connection",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "name": "work SQL errors",
+      "expected": 0,
+      "actual": 0,
+      "passed": true
+    },
+    {
+      "name": "work outstanding amount",
+      "expected": 6000,
+      "actual": 6000,
+      "passed": true
+    },
+    {
+      "name": "work source database preserved",
+      "expected": "cd4f78e7ab0f9f2a563cf06a5250c64f12265d3db679cbe396b3524f4a94498b",
+      "actual": "cd4f78e7ab0f9f2a563cf06a5250c64f12265d3db679cbe396b3524f4a94498b",
+      "passed": true
+    },
+    {
+      "name": "work quotes fixture rows",
+      "expected": 1,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "name": "work orders fixture rows",
+      "expected": 1,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "name": "work deliveries fixture rows",
+      "expected": 1,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "name": "work sales fixture rows",
+      "expected": 1,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "name": "work invoices fixture rows",
+      "expected": 1,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "name": "work payments fixture rows",
+      "expected": 1,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "name": "work allocations fixture rows",
+      "expected": 1,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "name": "work trace fixture rows",
+      "expected": 1,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "name": "test Access connection",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "name": "test SQL errors",
+      "expected": 0,
+      "actual": 0,
+      "passed": true
+    },
+    {
+      "name": "test outstanding amount",
+      "expected": 6000,
+      "actual": 6000,
+      "passed": true
+    },
+    {
+      "name": "test source database preserved",
+      "expected": "581e7a02ae4634018152e88c9611198206a02239bca17a9b774207c6275fb9c2",
+      "actual": "581e7a02ae4634018152e88c9611198206a02239bca17a9b774207c6275fb9c2",
+      "passed": true
+    },
+    {
+      "name": "test quotes fixture rows",
+      "expected": 1,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "name": "test orders fixture rows",
+      "expected": 1,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "name": "test deliveries fixture rows",
+      "expected": 1,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "name": "test sales fixture rows",
+      "expected": 1,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "name": "test invoices fixture rows",
+      "expected": 1,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "name": "test payments fixture rows",
+      "expected": 1,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "name": "test allocations fixture rows",
+      "expected": 1,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "name": "test trace fixture rows",
+      "expected": 1,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "name": "Invalid dataset rejected",
+      "expected": 400,
+      "actual": 400,
+      "passed": true
+    },
+    {
+      "name": "Unknown artifact rejected",
+      "expected": 404,
+      "actual": 404,
+      "passed": true
+    },
+    {
+      "name": "Missing CSRF token rejected",
+      "expected": 403,
+      "actual": 403,
+      "passed": true
+    },
+    {
+      "name": "Excel standard.xlsx accepted",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "name": "Excel standard.xlsx original preserved",
+      "expected": "4be8f8af0bd432d32d1f45987b32f5e1415afe314a7a86f2feaa82ce6fd06526",
+      "actual": "4be8f8af0bd432d32d1f45987b32f5e1415afe314a7a86f2feaa82ce6fd06526",
+      "passed": true
+    },
+    {
+      "name": "Excel standard.xlsm accepted",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "name": "Excel standard.xlsm original preserved",
+      "expected": "97a049021f2f9603ffb3c8f6fd8c43951c7bddd9dbbdc6a8c640b140069897c2",
+      "actual": "97a049021f2f9603ffb3c8f6fd8c43951c7bddd9dbbdc6a8c640b140069897c2",
+      "passed": true
+    },
+    {
+      "name": "Excel standard.xlam accepted",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "name": "Excel standard.xlam original preserved",
+      "expected": "058e909fc33a1c007c922b96f3cbaca25afbabaea024fe5be1527b55c215872f",
+      "actual": "058e909fc33a1c007c922b96f3cbaca25afbabaea024fe5be1527b55c215872f",
+      "passed": true
+    },
+    {
+      "name": "Excel standard.xls accepted",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "name": "Excel standard.xls original preserved",
+      "expected": "98de2814de1f7bb19fb27c58bcdc7691e4a63f0860b6f21ada223fa92e8901db",
+      "actual": "98de2814de1f7bb19fb27c58bcdc7691e4a63f0860b6f21ada223fa92e8901db",
+      "passed": true
+    },
+    {
+      "name": "Excel standard.xlsb accepted",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "name": "Excel standard.xlsb original preserved",
+      "expected": "2b18cdb02ad8a1e0118e5d177324866cfd5d16c305bd94562bebb7cd6163ac11",
+      "actual": "2b18cdb02ad8a1e0118e5d177324866cfd5d16c305bd94562bebb7cd6163ac11",
+      "passed": true
+    },
+    {
+      "name": "Excel v07/standard_features.xlsm accepted",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "name": "Excel v07/standard_features.xlsm original preserved",
+      "expected": "8e74624b50ca57de30e4d8afb6a44c84225dcc770fdd33668e20d1d8168fb689",
+      "actual": "8e74624b50ca57de30e4d8afb6a44c84225dcc770fdd33668e20d1d8168fb689",
+      "passed": true
+    },
+    {
+      "name": "Static analysis export",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "name": "Excel external.xlsm accepted",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "name": "Excel external.xlsm original preserved",
+      "expected": "7d27c2df52d6e21e36d0a3d8e764a86b88d48e0da0aa0486900f1bdec2214919",
+      "actual": "7d27c2df52d6e21e36d0a3d8e764a86b88d48e0da0aa0486900f1bdec2214919",
+      "passed": true
+    },
+    {
+      "name": "Corrupt workbook rejected",
+      "expected": false,
+      "actual": false,
+      "passed": true
+    },
+    {
+      "name": "Synthetic analysis available",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "name": "Live AI calls",
+      "expected": 0,
+      "actual": 0,
+      "passed": true
+    }
+  ]
+}

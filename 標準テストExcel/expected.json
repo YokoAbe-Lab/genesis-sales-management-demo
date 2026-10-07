@@ -1,0 +1,30 @@
+{
+  "modules": {
+    "ThisWorkbook": {
+      "sha256": "a89462db4ca46fcddcbb358f32fcbae293b067b4f9e39c08f14d6e280f65467d",
+      "lineCount": 4,
+      "type": "Document"
+    },
+    "Sheet1": {
+      "sha256": "80a6899537d3d3559e862b7113323c2b5d81a1f9134123da0eea55aefa3b90ff",
+      "lineCount": 4,
+      "type": "Document"
+    },
+    "ModuleMain": {
+      "sha256": "aaca6ee9104dd3fd9db043dde1fec4e559426d285e2a4c619fcaa7c859073a95",
+      "lineCount": 25,
+      "type": "Module"
+    },
+    "ClassCounter": {
+      "sha256": "dc430e745b1fdbe2af97f8c4d79cb26d40d815ce4bc2123a2282d37795a62fb6",
+      "lineCount": 7,
+      "type": "Class"
+    },
+    "FormPreview": {
+      "sha256": "d2088e66aa21367d8c44a43c888522a73b13a1378e7bf14a23d6d89a0ae2339d",
+      "lineCount": 4,
+      "type": "BaseClass"
+    }
+  },
+  "notice": "Synthetic OOXML/BIFF/OLE static-parser fixtures. xlsb is a package envelope fixture, not verified as an Excel-openable workbook. No VBA execution or Excel save verification."
+}

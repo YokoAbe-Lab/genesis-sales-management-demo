@@ -1,0 +1,67 @@
+{
+  "status": "Web画面の試験済み",
+  "checkedAt": "2026-10-05T12:34:18.116518+09:00",
+  "checks": [
+    {
+      "name": "11画面の表示・移動",
+      "expected": "依頼から監査ログまで表示できる",
+      "result": "PASS"
+    },
+    {
+      "name": "2つの入口",
+      "expected": "本体あり／資料のみを区別。ファイル内容を送信しない",
+      "result": "PASS"
+    },
+    {
+      "name": "質問・意見の保存",
+      "expected": "回答と指摘が再表示後も残る",
+      "result": "PASS"
+    },
+    {
+      "name": "画面構成の承認",
+      "expected": "差分確認後のみ記録。Access実行を許可しない",
+      "result": "PASS"
+    },
+    {
+      "name": "版・監査・二重保存防止",
+      "expected": "旧版保持、ハッシュ照合、同一操作の重複防止",
+      "result": "PASS"
+    },
+    {
+      "name": "レビュー記録の出力",
+      "expected": "新規JSONを保存・取得。既存出力は不変",
+      "result": "PASS"
+    },
+    {
+      "name": "文字拡大・小画面",
+      "expected": "拡大設定を保持。ページ全体が横にはみ出さない",
+      "result": "PASS"
+    },
+    {
+      "name": "A4横PDF",
+      "expected": "EdgeからローカルPDFを生成できる",
+      "result": "PASS"
+    },
+    {
+      "name": "外部通信・未接続の実行",
+      "expected": "ブラウザー試験の外部通信0件。Access等の操作を拒否",
+      "result": "PASS"
+    },
+    {
+      "name": "停止・再起動",
+      "expected": "同じ案件を維持し、承認0件の初期状態を保持",
+      "result": "PASS"
+    },
+    {
+      "name": "原本保全",
+      "expected": "確認対象12ファイルの開始前後ハッシュが一致",
+      "result": "PASS"
+    }
+  ],
+  "counts": {
+    "backendTests": 16,
+    "browserChecks": 11,
+    "originalFiles": 12
+  },
+  "scope": "今回のWeb確認版のみ。AG01〜AG31全体の完了ではありません。"
+}

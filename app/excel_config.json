@@ -1,0 +1,12 @@
+{
+  "version": "0.6.0",
+  "port": 8771,
+  "java": "java",
+  "maxFileBytes": 67108864,
+  "maxEntryBytes": 33554432,
+  "maxZipBytes": 268435456,
+  "maxEntries": 2000,
+  "javaTimeoutSeconds": 30,
+  "networkEnabled": false,
+  "vbaExecutionEnabled": false
+}

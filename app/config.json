@@ -1,0 +1,16 @@
+{
+  "applicationVersion": "0.5-agent.1",
+  "designVersion": "0.3",
+  "host": "127.0.0.1",
+  "port": 8769,
+  "mode": "local-agent",
+  "externalCallsEnabled": false,
+  "accessExecutionEnabled": false,
+  "fileContentUploadEnabled": false,
+  "maxRequestBytes": 32768,
+  "retentionPolicy": "未確定・自動削除なし",
+  "sampleAnalysisEnabled": true,
+  "agentModel": "gpt-6-luna",
+  "agentMaxCallsPerCase": 2,
+  "agentExternalPolicy": "explicit-per-call-fictional-text-only"
+}

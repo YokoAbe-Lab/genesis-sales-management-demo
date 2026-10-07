@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Genesis / AbeLab IDE",
+    "state": "ファイル確認",
+    "detail": "基準のAccessを確認。今回のWeb画面からは起動・改修しません。",
+    "phase": "Access接続は後続"
+  },
+  {
+    "name": "ACCESS解析ツール12",
+    "state": "ファイル確認",
+    "detail": "解析用Accessの存在とハッシュを記録。解析は未実施です。",
+    "phase": "解析アダプター候補"
+  },
+  {
+    "name": "AI Support UI",
+    "state": "ファイル確認",
+    "detail": "Excel本体を確認。マクロの実行と統合は未確認です。",
+    "phase": "共通メニューの参考"
+  },
+  {
+    "name": "ExcelConverterWeb2",
+    "state": "未確認",
+    "detail": "設定ファイルは確認できました。指定フォルダのソース領域ではJava・JSP実装を確認できていません。",
+    "phase": "統合せず保留"
+  },
+  {
+    "name": "ExcelConverterWeb",
+    "state": "参考資産",
+    "detail": "Java・JSPのファイルを確認。Web2と同一製品とは扱いません。",
+    "phase": "起動・機能は未検証"
+  },
+  {
+    "name": "Java学習・補助ツール",
+    "state": "参考資産",
+    "detail": "指定フォルダの構成を確認。業務データは読み込んでいません。",
+    "phase": "Javaアダプター候補"
+  },
+  {
+    "name": "人事A・B・Cデモ",
+    "state": "保存済み部品",
+    "detail": "前回の部品として保持。今回の中心機能には含めません。",
+    "phase": "変更対象外"
+  },
+  {
+    "name": "AgentBridge / AI API",
+    "state": "未確認",
+    "detail": "契約・接続・送信は実施していません。ローカルの模擬応答だけを使用します。",
+    "phase": "実接続は停止中"
+  }
+]
